@@ -280,7 +280,12 @@ section{
     margin-top: 325vh;
     width: 80%;
     height: 120vh;
-    border-bottom: 20px solid rgba(0, 0, 0, 0.171);
+    /* border-bottom: 20px solid rgba(0, 0, 0, 0.171); */
+    background-image: url("images/wave3.png");
+    background-repeat: no-repeat;
+    background-position-y: 450px;
+    background-size: contain;
+    /* background-position: bottom; */
 }
 
 #form-container{
@@ -293,7 +298,7 @@ section{
     border-radius: 20px;
     box-shadow: 5px 5px 50px #414141aa;
     margin: auto;
-    background-color: rgba(243, 243, 243, 0.499);
+    background-color: rgb(243, 243, 243);
 }
 
 form{
@@ -329,6 +334,11 @@ form label{
     border: 0px;
     margin-bottom: 20px;
     font-size: 18px;
+}
+
+#submit-btn:hover{
+    cursor: pointer;
+    background-color: black;
 }
 
 #msg-box{
