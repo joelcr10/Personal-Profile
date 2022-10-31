@@ -42,7 +42,7 @@
             <p id="home-subheading">This is my personal protfolio page created using HTML and CSS only</p>
             <p style="font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
-            <a style="text-decoration: none;"><button id="home-btn">Hire Me</button></a>
+            <a style="text-decoration: none;" href="Joel C Raju.pdf"><button id="home-btn">Hire Me</button></a>
         </section>
     <section id="about">
         
@@ -50,7 +50,7 @@
             <div class="about-text">
                 <h1 class="heading">ABOUT ME</h1>
                 <p id="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p id="about-para" style="margin-left: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p id="about-para" style="margin-left: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
    </p>
@@ -117,46 +117,54 @@
     </section>
  <section id="contact">
     <h1 class="heading" id="contact-heading">Get in touch</h1>
-    <div id="form-container">
-        <div id="form-image">
-            
+
+      <div class="contact-box">
+        <div class="left-side">
+            <div id="left-content">
+                <label for=""><img src="images/phone.png" alt="">&nbsp; : &nbsp; <a>+91 8750940057</a></label>
+                <label for=""><img src="images/mail.png" alt="">&nbsp; :  &nbsp; <a>joelcraju@gmail.com</a></label>
+            </div>
         </div>
-        <form>
-            <p>Enter the appropriate Details to contact me and follow up</p>
-            <div>
-                <label>Name</label>
-                <br>
-                <input type="text" placeholder="eg: John Doe" class="inp">
-                <br>
-            </div>
-            
-            <div>
-                <label>Email Id</label>
-                <br>
-                <input type="email" placeholder="eg: example@xyz.com" class="inp">
-                <br>
-            </div>
-
-            <div>
-                <label>Phone Number</label>
-                <br>
-                <input type="tel" placeholder="eg: 1234***89" class="inp">
-                <br>
-            </div>
-            <div>
-                <label for="">Message</label>
-                <br>
-                <textarea name="" id="" cols="30" rows="5" placeholder="I want to contact you......."  class="inp" style="height: 80px;"></textarea>
-                <br>
-            </div>
-            
-            <input type="submit" value="submit" id="submit-btn">
-        </form>
-    </div>
+        <div class="right-side">
+            <form>
+                <p>Enter the appropriate Details to contact me and follow up</p>
+                <div>
+                    <label>Name</label>
+                    <br>
+                    <input type="text" placeholder="eg: John Doe" class="inp">
+                    <br>
+                </div>
+                
+                <div>
+                    <label>Email Id</label>
+                    <br>
+                    <input type="email" placeholder="eg: example@xyz.com" class="inp">
+                    <br>
+                </div>
     
+                <div>
+                    <label>Phone Number</label>
+                    <br>
+                    <input type="tel" placeholder="eg: 1234***89" class="inp">
+                    <br>
+                </div>
+                <div>
+                    <label for="">Message</label>
+                    <br>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="I want to contact you......."  class="inp" style="height: 80px;"></textarea>
+                    <br>
+                </div>
+                
+                <input type="submit" value="submit" id="submit-btn">
+            </form>
 
+        </div>
+
+        </div>
 
  </section>
+
+ 
  <footer>
     
  </footer>
