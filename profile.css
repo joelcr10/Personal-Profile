@@ -211,7 +211,7 @@ section{
 }
 
 #about{
-    height: 110vh;
+    height: 100vh;
     border-bottom: 20px solid rgba(0, 0, 0, 0.203);
     background-image: url("images/aboutImage.png");
     background-repeat: no-repeat;
@@ -481,6 +481,7 @@ form label{
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: center;
+  /* border-right: 5px solid rgba(0, 0, 0, 0.266); */
 }
 
 .right-side{
